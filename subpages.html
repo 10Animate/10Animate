@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+            font: 2.5em Monospace;
+        }
+        body {
+            text-align: center; /* tu jest magia */
+        }
+        button {
+            color: white;
+            background-color: orange;
+            border-radius: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 300px;
+            height: 60px;
+            font: 1.5em Monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Subpages</h1>
+    <a href="index.html">← Go Back</a>
+    <button onclick="GPlugin()">Get Plugin</button>
+    <script>
+        function GPlugin() {
+            window.location.href = "get.html";
+        }
+    </script>
+</body>
+</html>
